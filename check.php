@@ -21,4 +21,4 @@ $mysql = mysqli_connect('localhost', 'root', 'mysql', 'register_bd');
 $mysql->query("INSERT INTO `users` (`login`, `name`, `pass`) VALUES ('$login', '$name', '$pass')");
 $mysql->close();
 
-header('Location: /index.html');
+header('Location: /index.php');
